@@ -17,8 +17,3 @@ if __name__ == '__main__':
     print("Mean fits:")
     print(data[100, 100])
 
-    # You can also plot the result:
-    #import matplotlib.pyplot as plt
-    #plt.imshow(data.T, cmap=plt.cm.viridis)
-    #plt.colorbar()
-    #plt.show()
