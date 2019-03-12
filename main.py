@@ -5,6 +5,7 @@ def mean_fits(iFitsFileList):
     for fitsFile in iFitsFileList:
         hdulist = fits.open(fitsFile)
         try:
+            print("Adding" + str(hdulist[0].data) + "to the mean calculation")
             data = data + hdulist[0].data
         except NameError:
             data = hdulist[0].data
