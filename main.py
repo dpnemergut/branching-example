@@ -14,6 +14,7 @@ def mean_fits(iFitsFileList):
 if __name__ == '__main__':
     # Test your function with examples from the question
     data = mean_fits(['images/image0.fits', 'images/image1.fits', 'images/image2.fits'])
+    print("Mean calculation of fits files:")
     print(data[100, 100])
 
     # You can also plot the result:
