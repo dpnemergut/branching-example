@@ -19,6 +19,7 @@ if __name__ == '__main__':
 
     # You can also plot the result:
     import matplotlib.pyplot as plt
+    print("Showing the plot")
     plt.imshow(data.T, cmap=plt.cm.viridis)
     plt.colorbar()
     plt.show()
