@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// This method runs a loop to generate a char message
 int main() {
     char *message;
     int num = 2;
