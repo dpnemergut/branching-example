@@ -4,7 +4,7 @@ int main() {
     char *message;
     int num = 2;
     while(num <= 4) {
-        printf("%d\n", num);
+        printf("%d\n", (int)*message * num);
         num += num;
     }
     return 0;
